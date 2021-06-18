@@ -174,7 +174,7 @@ input[type="checkbox"]:checked + label{
   justify-content: flex-end;
   height: 60%;
 }
-.footer-4 p {
+.footer-4 button {
   background-color: rgba(167, 75, 59, 0.8);
   width: 200px;
   display: flex;
@@ -182,6 +182,7 @@ input[type="checkbox"]:checked + label{
   align-items: center;
   text-transform: uppercase;
   color: #fff;
+  border: none;
 }
 .footer-line {
   height: 100%;
