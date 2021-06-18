@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Pacifico&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Arvo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -52,10 +53,10 @@ span {
   margin-left: 10px;
 }
 .line-break {
-    height: 12px;
-background-image: url(../img/hr-img.png);
-background-repeat: repeat;
-margin-bottom: 30px;
+  height: 12px;
+  background-image: url(../img/hr-img.png);
+  background-repeat: repeat;
+  margin-bottom: 30px;
 }
 .main-1 {
   display: flex;
@@ -94,33 +95,37 @@ margin-bottom: 30px;
 .paragraph {
   color: rgba(128, 128, 128, 0.884);
   width: 100%;
-  font-size: 19px;
+  text-indent: 30px;
+  font-family: 'Noto Serif JP', serif;
 }
 .p1 {
-  text-indent: 47px;
   text-align: justify;
   margin-bottom: 30px;
+  font-size: 16.5px;
+  line-height: 1.2;
 }
 .p2 {
-  text-indent: 47px;
   text-align: justify;
   margin-bottom: 30px;
+  font-size: 16.5px;
+  line-height: 1.2;
 }
 .p3 {
-  text-indent: 47px;
   text-align: justify;
   margin-bottom: 40px;
+  font-size: 16px;
+  line-height: 1.2;
 }
 .card {
   position: relative;
-  line-height: 1.8;
+  line-height: 1.9;
   margin-bottom: 40px;
-  font-family: 'Baloo Tammudu 2', cursive;
+  font-family: "Baloo Tammudu 2", cursive;
 }
 
 .form-2 {
   position: absolute;
-  top: 42px;
+  top: 46px;
   left: 50px;
   display: flex;
   flex-direction: column;
@@ -157,7 +162,7 @@ margin-bottom: 30px;
 }
 .footer-3 span {
   line-height: 1.7;
-  font-family: 'Arvo', serif;
+  font-family: "Arvo", serif;
   font-size: 20px;
   color: rgba(0, 0, 0, 0.6);
 }
@@ -218,5 +223,5 @@ margin-bottom: 30px;
   text-transform: capitalize;
   color: rgba(128, 128, 128, 0.99);
   width: 30%;
-margin-bottom: 80px;
+  margin-bottom: 80px;
 }
