@@ -125,7 +125,6 @@ span {
 input[type="checkbox"]:checked + label{
   text-decoration: line-through;
 }
-
 .form-2 {
   position: absolute;
   top: 46px;
@@ -134,7 +133,6 @@ input[type="checkbox"]:checked + label{
   flex-direction: column;
   width: 50%;
 }
-
 .form-3 {
   position: absolute;
   left: 100%;
@@ -191,7 +189,6 @@ input[type="checkbox"]:checked + label{
   text-align: center;
   position: relative;
 }
-
 .footer-line span::after {
   content: "";
   position: absolute;
